@@ -1,0 +1,74 @@
+.messagesender {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  margin: 0px auto;
+}
+.messagesender__input {
+  flex: 1;
+}
+.messagesender__top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding-bottom: 15px;
+  padding: 15px;
+}
+.messagesender__top > form {
+  flex: 1;
+  display: flex;
+}
+.messagesender__top > form > input {
+  outline: none;
+  border: none;
+  background-color: lightgray;
+  border-radius: 25px;
+  margin: 0px 5px;
+  padding: 5px 20px;
+}
+.messagesender__fileselected {
+  width: 100px;
+  /* background-color: red; */
+  margin-right: 20px;
+}
+.messagesender__btn {
+  background-color: transparent;
+  border: none;
+  padding: none;
+  color: thistle;
+  cursor: pointer;
+}
+.previmg {
+  width: 70%;
+  height: 300px;
+  border-radius: 25%;
+  background-color: burlywood;
+}
+.previmg img {
+  object-fit: contain;
+  height: 300px;
+  border-radius: 15px;
+}
+.messagesender__buttom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.messagesender__option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 20px;
+  color: grey;
+}
+.messagesender__option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+}
+.messagesender__option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
